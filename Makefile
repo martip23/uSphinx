@@ -7,10 +7,10 @@ CHANGES.rst:
 	git log --oneline --pretty=format:"* %ad: %s\n" --date=short > CHANGES.rst
 
 test:
-	$(TOX) -c tox.ini -e test
+	$(TOX) test
 
 coverage:
-	$(TOX) -c tox.ini -e coverage
+	$(TOX) coverage
 
 docs:
 	cd docs && make html

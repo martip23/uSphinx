@@ -2,11 +2,11 @@
 branch = False
 
 omit =
- _venv/*
- .tox/*
- .tox*
- tests/*
+  _venv/*
+  .tox/*
+  .tox*
+  tests/*
 
- [report]
- show_missing = False
+[report]
+show_missing = False
 
