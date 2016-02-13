@@ -1,17 +1,13 @@
 sudo: false
 
 language: python
-branches:
-  only:
-    - master
+python:
+  - "2.7"
+  - "3.5"
 
 install:
-  - git config --global user.email "rblack@austincc.edu"
-  - git config --global user.name "Roie Black"
   - pip install -r requirements.txt
 
 script:
-- make
-
-after-failure: cat /home/travis/build/rblack42/uSphinx/.tox/log/tox-0.log
+  - make
 

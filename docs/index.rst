@@ -15,6 +15,7 @@ Contents:
    Tox
    Coverage
    Flake8
+   TravisCI
 
 Indices and tables
 ==================
