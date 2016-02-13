@@ -11,7 +11,7 @@ include literate programming tools.
 # -*- coding: utf-8 -*-
 
 readme = open('README.rst').read()
-import usphinx.__about__ as about
+import uSphinx.__about__ as about
 
 from setuptools import setup, find_packages
 

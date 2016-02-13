@@ -1,4 +1,12 @@
 [run]
-include uSphinx/*
-omit *tests*
+branch = False
+
+omit =
+ _venv/*
+ .tox/*
+ .tox*
+ tests/*
+
+ [report]
+ show_missing = False
 
