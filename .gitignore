@@ -19,3 +19,8 @@ htmlcov
 # virtual environments
 _venv
 
+# Sphinx
+docs/_build
+
+# distutils
+uSphinx.egg-info
