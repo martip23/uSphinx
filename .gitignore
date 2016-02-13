@@ -7,20 +7,28 @@ __pycache__
 
 # Unit test / coverage reports
 .coverage
-.tox
 nosetests.xml
 htmlcov
+
+# VirtualEnv
+_venv
+
+#Sphinx
+docs/_build
 
 # Vim
 *~
 *.swp
 *.swo
 
-# virtual environments
-_venv
-
-# Sphinx
-docs/_build
-
 # distutils
+uSphinx.egg-info
+
+# tox
+.tox
+
+# disttils
+build
+dist
+sdist
 uSphinx.egg-info

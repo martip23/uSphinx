@@ -34,6 +34,3 @@ When you have a new version of the project redy, you can upload it to Pypi_ as f
 
     $ python setup.py upload.
 
-
-
-
