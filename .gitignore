@@ -1,0 +1,28 @@
+# Python
+*.py[oc]
+.coverage
+__pycache__
+
+# Mac
+.DS_Store
+
+# VirtualEnv
+_venv
+
+#Sphinx
+docs/_build
+
+# Vim
+*~
+*.swp
+
+# tox
+.tox
+htmlcov
+
+# disttils
+build
+dist
+sdist
+uSphinx.egg-info
+

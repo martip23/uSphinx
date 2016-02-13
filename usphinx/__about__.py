@@ -1,0 +1,7 @@
+__title__ = 'uSphinx'
+__summary__ = 'experimantal SPhinx rewrite'
+__url__ = 'https://github.com/rblack42/uSphinx'
+__version__ = '0.1.0'
+__author__ = 'Roie R. Black'
+__email__ = 'rblack@austincc.edu'
+__license__ = 'BSD 3-Clause'
