@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: uSphinx
+Version: 0.1.0
+Summary: experimantal SPhinx rewrite
+Home-page: https://github.com/rblack42/uSphinx
+Author: Roie R. Black
+Author-email: rblack@austincc.edu
+License: BSD 3-Clause
+Description: uSPhinx
+        #######
+        
+        An experimental tool based on Python Sphinx but using a few new concepts for
+        document management.
+        
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Utilities

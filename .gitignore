@@ -1,0 +1,21 @@
+### OSX ###
+.DS_Store
+
+# Python
+*.py[cod]
+__pycache__
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov
+
+# Vim
+*~
+*.swp
+*.swo
+
+# virtual environments
+_venv
+

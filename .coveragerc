@@ -1,0 +1,4 @@
+[run]
+include uSphinx/*
+omit *tests*
+
