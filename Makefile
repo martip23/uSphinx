@@ -1,4 +1,3 @@
-TOX		= tox
 RM		= rm -rf
 
 all:	CHANGES.rst test coverage
@@ -7,10 +6,11 @@ CHANGES.rst:
 	git log --oneline --pretty=format:"* %ad: %s\n" --date=short > CHANGES.rst
 
 test:
-	$(TOX) test
+	nosetests
 
 coverage:
-	$(TOX) coverage
+	coverage run uSphinx
+	coverage html
 
 docs:
 	cd docs && make html
